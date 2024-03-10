@@ -82,6 +82,7 @@ describe('markdown-link-check', function () {
                 return;
             }
             baseUrl = 'http://' + server.address().address + ':' + server.address().port;
+            console.log('baseUrl ' + baseUrl)
             done();
         });
     });
